@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Tfx.AspNet.Security</id>
+    <version>1.0.0</version>
+    <title>TFX Library: ASP.NET</title>
+    <description>TFX Library: ASP.NET</description>
+    <authors>T-Force Xyz</authors>
+    <owners>T-Force Xyz</owners>
+    <copyright>T-Force Xyz</copyright>
+    <licenseUrl>https://github.com/tforcexyz/tfxlib-aspnet/blob/master/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/tforcexyz/tfxlib-aspnet/blob/master/RELEASE</releaseNotes>
+    <iconUrl>https://github.com/tforcexyz/tfxlib-aspnet/blob/master/package_icon.png</iconUrl>
+    <projectUrl>https://github.com/tforcexyz/tfxlib-aspnet/</projectUrl>
+    <repository url="https://github.com/tforcexyz/tfxlib-aspnet/" type="git" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags></tags>
+    <dependencies>
+      <group>
+        <dependency id="Tfx" version="[1.0,2.0)" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.AspNet.Mvc" version="5.1.0" />
+        <dependency id="Microsoft.AspNet.WebApi" version="5.1.0" />
+        <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.0" />
+      </group>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Microsoft.AspNetCore.Authorization" version="2.0.0" />
+      </group>
+    </dependencies>
+    </metadata>
+  <files>
+    <file src="TfxAspNet.Security\bin\Release\**\TfxAspNet.Security.dll" target="lib/" />
+  </files>
+</package>
