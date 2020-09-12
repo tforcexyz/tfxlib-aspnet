@@ -35,12 +35,10 @@
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.1.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.1.0" />
     <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="3.0.0" />
-    <PackageReference Include="Microsoft.Owin.Security" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
