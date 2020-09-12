@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Tfx.AspNet.Security</id>
+    <id>TfxAspNet.Security</id>
     <version>1.0.0</version>
     <title>TFX Library: ASP.NET</title>
     <description>TFX Library: ASP.NET</description>

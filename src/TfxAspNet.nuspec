@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Tfx.AspNet</id>
+    <id>TfxAspNet</id>
     <version>1.0.0</version>
     <title>TFX Library: ASP.NET</title>
     <description>TFX Library: ASP.NET</description>
